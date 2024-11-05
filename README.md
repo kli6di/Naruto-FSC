@@ -138,7 +138,7 @@
                 <li>Raiton</li>
                 <li>Fūton</li>
             </ul>
-            <p><strong>Taijutsu :</strong> Yoné est en train de développer ses compétences au corps à corps, mettant l'accent sur la vitesse et l'agilité.</p>
+            <p><strong>Taijutsu :</strong> Yoné veut développer ses compétences au corps à corps, mettant l'accent sur la vitesse et l'agilité.</p>
         </section>
 
         <!-- Bouton de navigation vers la page Objectif -->
