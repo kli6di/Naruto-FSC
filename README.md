@@ -144,8 +144,7 @@
         <!-- Bouton de navigation vers la page Objectif -->
         <div class="button-container">
             <a href="objectif.html" class="button" aria-label="Voir l'objectif de Yoné">Objectif</a>
-        </div>
-    </div>
+    
 
 
         </div>
