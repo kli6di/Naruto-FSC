@@ -24,37 +24,47 @@
         /* Style pour le contenu de la page */
         .content {
             background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent pour lisibilité */
-            padding: 15px; /* Réduit le rembourrage pour voir plus de GIF */
+            padding: 15px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
         }
 
         h1 {
-            font-size: 2em; /* Taille réduite pour le titre */
+            font-size: 2em;
             margin: 0;
         }
 
         p {
-            font-size: 1em; /* Taille réduite pour le texte */
+            font-size: 1em;
             margin-top: 10px;
         }
 
-        /* Style pour le bouton */
+        /* Style pour les boutons */
         .button {
             display: inline-block;
             margin-top: 20px;
             padding: 10px 20px;
             font-size: 1em;
             color: #ffffff;
-            background-color: #e74c3c; /* Couleur rouge pour le bouton */
+            background-color: #e74c3c;
             border: none;
             border-radius: 5px;
             cursor: pointer;
-            text-decoration: none; /* Retire le soulignement du lien */
+            text-decoration: none;
         }
 
         .button:hover {
-            background-color: #c0392b; /* Couleur plus foncée au survol */
+            background-color: #c0392b;
+        }
+
+        /* Style spécifique pour le bouton Retour */
+        .button-back {
+            background-color: #3498db; /* Couleur bleue pour le bouton Retour */
+            margin-top: 10px;
+        }
+
+        .button-back:hover {
+            background-color: #2980b9; /* Couleur plus foncée au survol */
         }
     </style>
 </head>
@@ -66,6 +76,8 @@
         Chose que Yoné ne refusera pas, au contraire ça lui convient car il pourra mettre en oeuvre ses capacités. Quand il se sentira prêt pour partager ses savoirs et prêt à défendre, Yoné deviendra un sensei et prendra en charge des élèves.</p>
         
         <a href="hrp.html" class="button">Aller à la page Hrp</a>
+        <!-- Bouton pour revenir en arrière -->
+        <button onclick="history.back()" class="button button-back">Retour</button>
     </div>
 </body>
 </html>
