@@ -24,24 +24,43 @@
         /* Style pour le contenu de la page */
         .content {
             background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent pour lisibilité */
-            padding: 20px; /* Réduit le rembourrage pour voir plus de GIF */
+            padding: 20px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-            max-width: 800px; /* Limite la largeur du contenu pour une meilleure lisibilité */
-            margin: auto; /* Centre le contenu */
+            max-width: 800px;
+            margin: auto;
         }
 
         h1 {
-            font-size: 3em; /* Taille du titre */
+            font-size: 3em;
             margin: 0;
-            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Ombre pour le texte */
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
         }
 
         p {
-            font-size: 1.1em; /* Taille du texte */
-            margin-top: 10px; /* Espace au-dessus du texte */
-            line-height: 1.5; /* Interligne pour une meilleure lisibilité */
-            text-align: left; /* Alignement à gauche pour une meilleure lisibilité */
+            font-size: 1.1em;
+            margin-top: 10px;
+            line-height: 1.5;
+            text-align: left;
+        }
+
+        /* Style du bouton de retour */
+        .button-back {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1em;
+            color: #ffffff;
+            background-color: #e74c3c;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .button-back:hover {
+            background-color: #c0392b;
         }
     </style>
 </head>
@@ -49,13 +68,16 @@
     <div class="content">
         <h1>Missions</h1>
         <p>J'ai créé ce site pour écrire toutes les missions que je ferai avec mes élèves quand mon perso deviendra sensei. Yoné sera un personnage 100% RP et mon but est surtout de donner du RP aux autres, principalement aux petits qui n’en ont jamais. Mon objectif est de créer le plus de missions possible et de les réaliser avec l’aide des animateurs et builders.</p>
-        <p>Par exemple: Une mission où Konoha s’est fait voler un parchemin par des ninjas vagabonds. L’idée serait que le Hokage fasse une scène ou m’appelle pour superviser la mission et moi, je ferai une scène où je sélectionne 3 Kakunin par exemple. Cela leur offre une scène avec le Hokage et un sensei. Ensuite, nous ferons la poursuite des 3 ninjas vagabonds (qui seront joués par des animateurs). Les vagabonds partiront en direction de Kusa pour vendre le parchemin sur leur marché.</p>
-        <p>Nous allons devoir nous infiltrer et inquiéter. Nous les trouvons mais nous devons les combattre, donc du PvP RP. Nous reprenons le parchemin, mais nous nous faisons repérer par le chef de Kusa. À cause de cela, Kusa peut entrer en conflit avec Konoha de manière totalement RP.</p>
-        <p>En une mission, j’offre comme RP aux élèves: scène avec sensei + Hokage, poursuite que je vais essayer de rendre un peu longue où nous devrions éviter des pièges, faire des pauses pour manger, parler, etc.
-Infiltration + inquiétude dans un village inconnu pour les élèves, PvP avec les ninjas vagabonds + scène avec le chef. Je donne aussi du RP à Kusa et Konoha en leur donnant une raison d’avoir un petit conflit.</p>
+        <p>Par exemple: Une mission où Konoha s’est fait voler un parchemin par des ninjas vagabonds...</p>
+        <p>Nous allons devoir nous infiltrer et inquiéter...</p>
+        <p>En une mission, j’offre comme RP aux élèves: scène avec sensei + Hokage, poursuite que je vais essayer de rendre un peu longue...</p>
         <p>J’en ai plein des idées comme ça en tête et j’ai fait le site uniquement pour vous convaincre et obtenir l’aide des animateurs, du staff, des builders, et des autres villages, etc.</p>
+        
+        <!-- Bouton de retour -->
+        <a href="javascript:history.back()" class="button-back">Retour</a>
     </div>
 </body>
 </html>
+
 
 
