@@ -1,4 +1,4 @@
-<html lang="fr">
+<html lang="fr"> 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,8 +9,8 @@
         /* Styles généraux */
         body {
             font-family: 'Roboto', Verdana, sans-serif;
-            background-color: #ffa500; /* Arrière-plan orange */
-            color: #2c3e50;
+            background-color: #000000; /* Fond noir */
+            color: #ffffff; /* Texte blanc pour contraster sur le fond noir */
             margin: 0;
             padding: 20px;
         }
@@ -18,7 +18,7 @@
         .container {
             max-width: 800px;
             margin: auto;
-            background: rgba(255, 255, 255, 0.9);
+            background: rgba(255, 255, 255, 0.1); /* Fond légèrement transparent pour la zone de contenu */
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
@@ -35,7 +35,7 @@
         .section {
             margin-bottom: 20px;
             padding: 15px;
-            background-color: #ffffff;
+            background-color: #1c1c1c; /* Fond gris foncé pour les sections */
             border-left: 5px solid #e74c3c;
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
@@ -57,7 +57,7 @@
 
         .techniques li {
             padding: 5px 0;
-            color: #34495e;
+            color: #ecf0f1;
         }
 
         /* Description en italique */
@@ -144,6 +144,11 @@
         <!-- Bouton de navigation vers la page Objectif -->
         <div class="button-container">
             <a href="objectif.html" class="button" aria-label="Voir l'objectif de Yoné">Objectif</a>
+        </div>
+    </div>
+</body>
+</html>
+
         </div>
     </div>
 </body>
