@@ -146,8 +146,7 @@
             <a href="objectif.html" class="button" aria-label="Voir l'objectif de Yoné">Objectif</a>
         </div>
     </div>
-</body>
-</html>
+
 
         </div>
     </div>
